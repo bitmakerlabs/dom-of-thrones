@@ -1,0 +1,24 @@
+@media only screen and (min-aspect-ratio: 2000/1000) {
+
+  #container {
+    display: flex;
+  }
+
+  #stage,
+  #stage-img {
+    height:     calc(70vw / (16 / 9));
+    max-height: 100vh;
+    max-width:  70vw;
+  }
+
+  section {
+    border-left:   4px solid black;
+    border-bottom: 4px solid black;
+    height:        25vh;
+  }
+
+  section:last-child {
+    border-bottom: none;
+  }
+
+}

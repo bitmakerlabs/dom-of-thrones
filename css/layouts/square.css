@@ -1,0 +1,38 @@
+@media only screen and (min-aspect-ratio: 2000/1800) and (max-aspect-ratio: 2000/1001) {
+
+  #stage {
+    float:  left;
+    width:  70vw;
+    height: calc(70vw / (16 / 9));
+  }
+
+  #sections {
+    display:        flex;
+    flex-direction: column;
+  }
+
+  section {
+    height: calc(100vh / 3);
+  }
+
+  #cast,
+  #wardrobe,
+  #props {
+    border-left: 4px solid black;
+  }
+
+  #wardrobe {
+    border-top:    4px solid black;
+    border-bottom: 4px solid black;
+  }
+
+  #sets {
+    position:   absolute;
+    bottom:     0;
+    left:       0;
+    border-top: 4px solid black;
+    height:     calc(100vh - 70vw / (16 / 9));
+    width:      70vw;
+  }
+
+}
