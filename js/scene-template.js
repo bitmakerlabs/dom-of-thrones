@@ -18,14 +18,14 @@ function scene<scene_number>() {
 
   // Stage direction 1
 
-  frame(function() {
+  frame(() => {
 
-  })
+  });
 
   // Stage direction 2
 
-  frame(function() {
+  frame(() => {
 
-  })
+  });
 
 }

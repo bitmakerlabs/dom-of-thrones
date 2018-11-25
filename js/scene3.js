@@ -1,9 +1,9 @@
 function scene3() {
 
   // Setup Stage
-  mySrc = desert.getAttribute('src')
-  stageImg = document.querySelector('#stage-img')
-  stageImg.setAttribute('src', mySrc)
+  const mySrc = desert.getAttribute('src');
+  const stageImg = document.querySelector('#stage-img');
+  stageImg.setAttribute('src', mySrc);
 
 
   // Setup Cast
@@ -22,13 +22,13 @@ function scene3() {
 
   // Stage direction 1
 
-  frame(function() {
+  frame(() => {
 
   })
 
   // Stage direction 2
 
-  frame(function() {
+  frame(() => {
 
   })
 
